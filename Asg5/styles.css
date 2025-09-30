@@ -1,0 +1,25 @@
+body {
+background-color: rgb(156, 121, 103);
+    padding: 0 20px 20px 20px;
+    margin: 0;
+}
+
+h1, h2, h3{
+font-family: "Lobster", sans-serif;
+color: indigo;
+}
+
+p{
+font-family: "Kings", cursive;
+color: aliceblue;
+}
+
+li{
+font-family: "Kings", cursive;
+color: darkkhaki;
+}
+
+article {
+    max-width: 760px;
+    margin: 0 auto;
+}
