@@ -1,20 +1,24 @@
 /* styles.css */
 body {
-    background-color:;
+    background: ;
     padding: 0 20px 20px 20px;
     margin: 0;
 } 
 
 p{
-    color: #3B0017;
+    color: #BE0547;
     font-size: 1em;
     font-family: Comic sans;
 }
 
 h1, h2, h3{
-color: #09013F;
+color: #4A06BA;
 font-family: Arial, "Palatino Linotype", Times, serif;
 border-bottom: 2px;
 padding-top: 10px;
 padding-bottom: 5px;
+}
+li{
+    color:#9A8705;
+    
 }
