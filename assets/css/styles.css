@@ -8,13 +8,13 @@ body {
 p{
     color:;
     font-size: 1em;
-    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-family: Comic sans;
 }
 
 h1, h2, h3{
-color: rgb(255,255,255);
+color: ;
 font-family: Arial, "Palatino Linotype", Times, serif;
-border-bottom: 2px solid rgb(87,185,178);
+border-bottom: 2px;
 padding-top: 10px;
 padding-bottom: 5px;
 }
