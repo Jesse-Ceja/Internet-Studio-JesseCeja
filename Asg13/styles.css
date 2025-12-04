@@ -1,0 +1,77 @@
+/* Some selectors to get you started */
+
+h1 h2 h3 {
+/* baskervville-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Baskervville SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/baskervville-sc-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+}
+
+
+p {
+/* bellefair-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bellefair-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-size: 1em;
+}
+}
+ .grid {
+  border: 2px #162333 dotted;
+  height: 700px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 15% 15% 2fr 1fr;
+  grid-template-rows: 350px 300px;
+  row-gap: 10px;
+  column-gap: 15px;
+}
+
+.box {
+  background-color: rgb(130, 234, 248);
+  color: black;
+  border-radius: 5px;
+  border: 5px #00425e solid;
+}
+
+.a {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+/* unkempt-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Unkempt';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/unkempt-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {font-size: 16px;}
+
+body {
+  background-image: url(images/background.jpg) ;
+  font-weight: false;
+  line-height: 1.65;
+  max-width: 760px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+
+
+
+
+
